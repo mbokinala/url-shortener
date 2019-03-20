@@ -1,3 +1,5 @@
+console.log('This is version 1');
+
 $('#mainForm').submit(function (e) {
     e.preventDefault();
     console.log($('#longURL').val());
