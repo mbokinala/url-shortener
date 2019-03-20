@@ -4,8 +4,8 @@ $('#mainForm').submit(function (e) {
 
     var sendUrl = $('#longURL').val();
     if(!(sendUrl.startsWith('http://') || sendUrl.startsWith('https://'))) {
-        console.log(sendUrl);
         sendUrl = 'http://' + sendUrl;
+        console.log(sendUrl);
     }
 
     data = {
