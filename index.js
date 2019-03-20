@@ -12,6 +12,7 @@ $('#mainForm').submit(function (e) {
         code: $('#code').val()
     }
 
+    //This is the old way
     xhr = new XMLHttpRequest();
 
     xhr.open('POST', '/new');
